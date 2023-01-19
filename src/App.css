@@ -1,0 +1,67 @@
+input[type="text"],
+select,
+textarea {
+  width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  resize: vertical;
+  margin-bottom: 15px;
+}
+
+button {
+  border: 1px solid #3498db; 
+  background-color: transparent; 
+  border-radius: 15px;
+  color: rgb(0, 0, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+.container{
+    display: flex;
+    flex-Wrap: wrap;
+    justify-Content: center;
+    gap: 32px;
+}
+/* .con{
+    width:220px,
+    height: 100%,
+    background: #f9f9f9,
+    padding: 15px,
+    borderRadius: 15px;
+} */
+.cen{
+  text-align: center;
+  display: block;
+  justify-Content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+
+}
+img{
+  height: 350px;
+  border-radius:10px;
+  width: 500px;
+  
+}
+p, button{
+  text-align: center;
+  display: block;
+  justify-Content: center;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  /* padding-bottom: 100px; */
+
+}
+.aa{
+  height: 350px;
+  width: 350px;
+}
